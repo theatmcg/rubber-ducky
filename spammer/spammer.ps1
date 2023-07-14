@@ -9,4 +9,8 @@ Function Get-FileName($initialDirectory) {
 	$OpenFileDialog.filename
 } #end function Get-FileName
 
-Get-FileName -initialDirectory "c:fso"
+# make a 100 looper
+$i = 0
+While($i -lt 50) {
+	Get-FileName -initialDirectory "c:fso"
+}
